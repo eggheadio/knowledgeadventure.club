@@ -13,7 +13,7 @@ const Subscribe = ({children, formId = '1553751'}) => (
             class="block text-gray-700 text-sm font-bold mb-2"
             for="first_name"
           >
-            first name
+            preferred name
           </label>
           <input
             aria-label="Your preferred name"

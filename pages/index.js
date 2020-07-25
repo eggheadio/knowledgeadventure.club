@@ -1,10 +1,9 @@
 import Head from 'next/head'
-import Link from 'next/link'
 import Subscribe from '../components/subscribe'
 
 export default function Home() {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen flex items-center justify-center bg-gray-50 py-5 px-4 sm:px-6 lg:px-8">
       <Head>
         <title>Knowledge Adventure Club</title>
         <link rel="icon" href="/favicon.ico" />
