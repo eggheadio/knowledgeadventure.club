@@ -4,7 +4,7 @@ import Subscribe from '../components/subscribe'
 export default function Home() {
   const site = {
     title: `Knowledge Adventure Club`,
-    description: `Guided adventures through the depths of knowledge.`,
+    description: `Guided adventures through the depths of software and business knowledge.`,
   }
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-50 py-5 px-4 sm:px-6 lg:px-8">
@@ -29,7 +29,7 @@ export default function Home() {
           key="ogimage"
         />
         <meta property="og:site_name" content={site.title} key="ogsitename" />
-        <meta property="og:title" content={site.title} key="ogtitle" />
+        <meta property="og:title" content={`⚔️ ${site.title}`} key="ogtitle" />
         <meta
           property="og:description"
           content={site.description}
