@@ -25,7 +25,7 @@ export default function Home() {
         />
         <meta
           property="og:image"
-          content="https://knowledgeadventure.club/favicon-32x32"
+          content="https://knowledgeadventure.club/android-chrome-512x512.png"
           key="ogimage"
         />
         <meta property="og:site_name" content={site.title} key="ogsitename" />
