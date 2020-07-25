@@ -1,0 +1,6 @@
+{
+  "redirects": [
+    {"source": "/lessons", "destination": "/search"},
+    {"source": "/courses", "destination": "/search"}
+  ]
+}
