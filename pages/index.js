@@ -7,7 +7,7 @@ export default function Home() {
     description: `Guided adventures through the depths of software and business knowledge.`,
   }
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-50 py-5 px-4 sm:px-6 lg:px-8">
+    <div className="flex items-center justify-center bg-gray-50 py-5 px-4 sm:px-6 lg:px-8">
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta charSet="utf-8" />
@@ -37,13 +37,7 @@ export default function Home() {
         />
       </Head>
 
-      <main className="max-w-md w-full flex flex-col items-center">
-        <h1 className="text-xl">⚔️ Want to Join a Knowledge Adventure Club?</h1>
-        <div className="p-3 text-sm text-gray-600">
-          If you enter your email address below I will send you more details as
-          this idea takes shape. I'll also send the occasional email on other
-          topics like software and business.
-        </div>
+      <main className="max-w-md w-full ">
         <Subscribe></Subscribe>
       </main>
     </div>

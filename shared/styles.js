@@ -6,7 +6,6 @@ export const globalStyles = (
     styles={css`
       html,
       body {
-        padding: 1rem 1rem;
         margin: 0;
         min-height: 100%;
         font-family: Helvetica, Arial, sans-serif;
