@@ -15,7 +15,7 @@
     "formik": "^2.1.5",
     "graphql-request": "^2.0.0",
     "load-script": "^1.0.0",
-    "lodash": "^4.17.19",
+    "lodash": "^4.17.21",
     "next": "canary",
     "preact": "^10.4.6",
     "preact-render-to-string": "^5.1.10",
